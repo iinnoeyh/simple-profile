@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="최가현 - 프로필 링크" />
+    <meta property="og:description" content="내가 누구인지 궁금하니?" />
+    <meta property="og:image" content="logo.jpg" />
+    <title>PROFILE</title>
+    <style>
+      @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+      * {
+        font-family: 'Pretendard', serif;
+      }
+      body {
+        background-color: #44398a;
+        margin: 0;
+      }
+      .profile {
+        width: 100px;
+        height: 100px;
+
+        border-radius: 100%;
+        border: 2px solid white;
+
+        background-image: url('logo.jpg');
+        background-position: center;
+        background-size: cover;
+      }
+      .main {
+        color: white;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+      }
+      .sub {
+        color: white;
+        font-size: 14px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+      }
+      .wrap {
+        width: 300px;
+        height: 100vh; /* 전체 화면 높이로 설정 */
+        margin: auto;
+
+        /* 내용 가운데 정렬 */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .wrap > a {
+        width: 380px;
+        height: 60px;
+
+        background-color: white;
+        border-radius: 8px;
+
+        margin-bottom: 15px;
+
+        font-size: 18px;
+        font-weight: bold; /* 굵기 */
+        color: #44398a;
+
+        /* 내용 가운데 정렬 */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        text-decoration: none;
+
+        box-shadow: 3px 3px 5px 0px black;
+      }
+      .wrap > a:hover {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="profile"></div>
+      <h1 class="main">@iinnoeyh</h1>
+      <p class="sub">제가.. 누구냐고요..?</p>
+      <a target="_blank" href="https://github.com/iinnoeyh?tab=repositories"
+        >Github</a
+      >
+      <a target="_blank" href="https://velog.io/@iinnoeyh/posts">Velog</a>
+      <a target="_blank" href="https://github.com/iinnoeyh/simple-profile"
+        >This page dev. code</a
+      >
+      <a
+        target="_blank"
+        href="https://velog.io/@iinnoeyh/Project-%EA%B0%84%EB%8B%A8%ED%95%9C-%ED%94%84%EB%A1%9C%ED%95%84-%EC%A0%9C%EC%9E%91"
+        >Description of this page</a
+      >
+    </div>
+  </body>
+</html>
